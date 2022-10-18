@@ -1,15 +1,79 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>That's the webpage tab title</title>
-</head>
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: black;
+  padding: 14px 16px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+  opacity: .9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+}
+</style>
+
 
 <body>
 
-<h1>This is a Heading</h1>
+<form action="/action_page.php" style="border:1px solid #ccc">
+  <div class="container">
+    <h1>Fill your Interests</h1>
+    <p>Lorem Ipsum, a type specimen book by an unknown printer.</p>
+    <br>
 
-<img src="q.jpg" style="position:fixed; left:30 top:20 right:30; bottom:20; width:100; height:20; border:none;">
+    <label for="name"><b>Name</b></label>
+    <input type="text" name="name" required style="border:1px solid #ccc">
+
+    
+    <label for="email"><b>Email</b></label>
+    <input type="text" name="email" required style="border:1px solid #ccc">
+    
+    <label>
+      <input type="checkbox" name="remember" style="margin-bottom:15px"> Remember me
+    </label>
+    <br>
+    <label>
+    <button type="submit" class="signupbtn" >Sign Up</button>
+  </div>
+</form>
 
 </body>
-
 </html>
