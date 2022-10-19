@@ -1,79 +1,101 @@
-<!DOCTYPE html>
 <html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
-body {font-family: Arial, Helvetica, sans-serif;}
-* {box-sizing: border-box}
-
+body {font-family: Arial;text-align=center;}
 /* Full-width input fields */
-input[type=text], input[type=password] {
-  width: 100%;
-  padding: 15px;
+input[type=text] , input[type=date]
+{
+  width: 80%;
+  padding: 10px;
   margin: 5px 0 22px 0;
   display: inline-block;
   border: none;
-  background: #f1f1f1;
+  background: #ffffff;
 }
-
-input[type=text]:focus, input[type=password]:focus {
-  background-color: #ddd;
-  outline: none;
-}
-
 
 /* Set a style for all buttons */
-button {
-  background-color: #04AA6D;
+button 
+{
+  background-color: #83aa04;
   color: black;
   padding: 14px 16px;
   margin: 8px 0;
   border: none;
   cursor: pointer;
   width: 30%;
-  opacity: .9;
+  opacity: .8;
 }
-
-button:hover {
-  opacity:1;
-}
-
-/* Extra styles for the cancel button */
-.cancelbtn {
-  padding: 14px 20px;
-  background-color: #f44336;
-}
-
+button:hover {opacity:1;}
 /* Add padding to container elements */
-.container {
-  padding: 16px;
+.container {padding: 16px;}
+#sel{
+    width: 80%;
+    height: 40px;
+    padding: 10px;
 }
 
-}
+/*700px width for example*/
+
+#sel option {
+    width: 60%; /*default would be inherit*/
+    height: 60px; /*just changed for example*/ 
+
+
 </style>
-
-
+</head>
 <body>
-
-<form action="/action_page.php" style="border:1px solid #ccc">
+<div style="text-align:center">
+<div style="display: inline-block; text-align: left;">
+<form action="/action_page.php" id="form_login">
   <div class="container">
     <h1>Fill your Interests</h1>
     <p>Lorem Ipsum, a type specimen book by an unknown printer.</p>
-    <br>
 
-    <label for="name"><b>Name</b></label>
-    <input type="text" name="name" required style="border:1px solid #ccc">
-
+    <label for="name">Name</label>
+    <br>
+    <input type="text" name="name" required="" style="border:1px solid #ccc">
+	<br>
     
-    <label for="email"><b>Email</b></label>
-    <input type="text" name="email" required style="border:1px solid #ccc">
+    <label for="email">Email</label>
+    <br>
+    <input type="text" name="email" required="" style="border:1px solid #ccc">
+    <br>
+    <label for="dateofbirth">DOB</label>
+    <br>
+    <input type="date"  required="" style="border:1px solid #ccc">
+    <br>
     
+    <label for="interest">Select your Interest</label>
+    <br>
+    
+    <select id="sel" style="border:1px solid #ccc">
+    <option>-select-</option>  
+    <option value="web" >Web</option>
+    <option value="sqa">SQA</option>
+    <option value="ai">AI</option>
+    <select>
+    <br>
+    <label for="10">
+	<input type="radio" value="individual" name="class" id="10">Individual
     <label>
-      <input type="checkbox" name="remember" style="margin-bottom:15px"> Remember me
-    </label>
+    <label for="20">
+	<input type="radio" value="organisation" name="class" id="20">Organisation
+    <label>
+    <br>
+    <br>
+    <label for="name">About you</label>
+    <br>
+    <label for="30">
+    <textarea name="about" placeholder ="" id ="30" rows="10" cols="43%"></textarea>
+    <label>
     <br>
     <label>
-    <button type="submit" class="signupbtn" >Sign Up</button>
+    <button type="submit" class="details">Send Details</button>
+  </label>
   </div>
 </form>
-
+</div>
+</div>
 </body>
 </html>
