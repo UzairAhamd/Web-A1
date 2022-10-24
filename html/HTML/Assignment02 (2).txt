@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.container{
+	
+	font-family:calibri;
+	
+}
+
+</style>
+</head>
+
+<body style="background-position:center">
+<div class="container">
+<h2>Fill your intrests</h2>
+<p>Hjhj,kjhdc,hjfkherihfhdfvj jksdbhfjkhjlk jkdshn</p>
+
+<form>
+  <label>Name</label><br>
+  <input type="text"><br>
+  <label>Email</label><br>
+  <input type="email"><br>
+  <label>DOB</label><br>
+  <input type="date"><br>
+  <label>Select your interest</label><br>
+  <select>
+    <option>University of Engineering and Technology, Lahore</option>
+    <option>Saab</option>
+    <option>Fiat</option>
+    <option>Audi</option>
+  </select>
+  <label></label><br>
+  <input type="checkbox">
+  <label>Indiviual</label>
+  
+  <input type="checkbox">
+  <label>Community</label>
+  
+  <p>About you</p>
+  <textarea rows="5" cols="30"></textarea>
+  
+</form>
+</div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,82 @@
+.main-wraper{
+    margin: 0px auto;
+    max-width: 1000px;
+    font-family: sans-serif;
+}
+.main-wraper .header{
+    padding: 20px 10px;
+}
+.main-wraper .header a{
+    float: left;
+    color:black;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 50px;
+}
+.main-wraper .header a.logo{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.main-wraper .header .nav{
+    float: right;
+    color: black;
+}
+.main-wraper banner img{
+    width: 100%;
+}
+.main-wraper .block{
+    text-align: center;
+    padding: 10px 50px 15px 50px;
+}
+.main-wraper .block a{
+    
+    border-radius: 4px;
+    background-color:cornflowerblue;
+    padding: 5px 15px 5px 15px;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+.myteam{
+    float: left;
+    border:1px solid black;
+    border-radius: 4px;
+    margin:0px 0px 30px 5px;
+    width: 230px;
+    text-align: center;
+}
+.myteam img{
+    margin:5px auto;
+}
+.projects{
+    text-align: center;
+    padding: 10px auto;
+}
+.projects img{
+    float: left;
+    padding: 5px 5px;
+}
+.projects a{
+    display: block;
+    border-radius: 4px;
+    background-color:cornflowerblue;
+    padding: 5px 15px 5px 15px;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+.table{
+    border: 1px solid black;
+    width:100%;
+    border-radius: 4px;
+}
+.table td,th{
+    text-align: left;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}

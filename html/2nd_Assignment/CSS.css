@@ -1,0 +1,131 @@
+.Parent{
+    margin: 0px auto;
+    max-width: 1366px;
+}
+header{
+    background-color: rgb(43, 42, 41);
+    box-sizing: border-box;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    font-size: 10px;
+    max-width: 1366px;
+}
+header a{
+    color: rgb(147, 147, 147);
+    text-decoration: none;
+    margin: 0px 15px;
+    font-family:  Calibri,  sans-serif;
+}
+nav{
+    /* border: 1px solid black; */
+    height: 80px;
+    box-sizing: border-box;
+}
+nav a.logo{
+      float: left;
+      font-size: 40px;
+      font-family:  Calibri,  sans-serif;
+      color: white;
+      margin: 15px 100px;
+      text-decoration: none;
+      font-weight: 600;
+}
+nav a{
+      float: right;
+      font-size: normal;
+      font-family:  Calibri,  sans-serif;
+      color: white;
+      margin:  30px 50px 0px 0px ;
+      text-decoration: none;
+      text-align: center;
+}
+  
+nav input[type=text]{
+      padding: 6px;
+      width: 500px;
+    margin-top: 25px;
+    font-size: normal;
+    font-family:  Calibri,  sans-serif;
+    border-radius: 3px;
+    border: none;
+    float: left;
+}
+nav button[type=submission]{
+    padding: 6px 0;
+    margin: 25px 0;
+    border-radius: none;
+    border: none;
+    width: 30px;
+    opacity: .8;
+    color: white;
+    background-color: rgb(240, 90, 21);
+    font-family:  Calibri,  sans-serif;
+    float: left;
+}
+nav button:hover{
+    opacity:.3;
+}
+.banner{
+    background-image: url('banner.png');
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+        background-repeat: no-repeat;
+}
+.punchline{
+    text-align: center;
+    color: white;
+    font-family: Calibri, sans-serif;
+    margin-top: 110px;
+    font-size: 23px;
+}
+.inputButton{
+    background-color: rgb(27, 26, 26);
+    border:none;
+    border-radius: 4px;
+    text-align: center;
+    margin: 40px 590px;
+    padding: 16px 10px;
+}
+.inputButton a{
+    text-decoration: none;
+    color: white;
+    font-family: Calibri, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+}
+.punchline2 h2{
+    margin: 110px 0;
+    font-weight: 900;
+    font-family: Arial, sans-serif;
+    font-size: 23px;
+    text-align: center;
+    color: rgb(0,0,0);
+}
+.accessories img{
+    width: 160px;
+    height: 190px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.accessories a{
+    text-decoration: none;
+    color: black;
+}
+.inner-wraper{
+    float: center;
+    margin: 20px 20px 20px 0;
+    width: 270px;
+    padding: 10px 30px 5px 30px;
+    border: 1px solid white;
+    height: 390px;
+    box-shadow: 0px 4px 20px 0px rgb(200,200,200);
+    
+}
+.now a{
+    float: left;
+}
+.more{
+    float: right;
+}

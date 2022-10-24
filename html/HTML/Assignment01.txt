@@ -1,0 +1,41 @@
+<html>
+<head>
+<style>
+.container{
+	text-align:center;
+	font-family:calibri;
+	
+}
+.background{
+	background-image: url('q.jpg');
+	background-repeat: no-repeat;
+	background-position:center;
+	padding:10%;
+}
+.button{
+	background-color: #deff00;
+	padding: 6px 15px;
+	border: 2px;
+	border-radius: 2px;
+}
+
+
+</style>
+</head>
+
+<body>
+<div class="background">
+	<div class="container">
+		<h1>My Country</h1>
+		<p>haghdgsajdgdjhwfgjsdgfcefev<br>jkasfgjawgauhf</p>
+	</div>
+</div>
+
+<div class="container">
+	<h3>Heading Text</h3>
+	<p>haghdgsajdgdjhwfgjsdgfcefev<br>jkasfgjawgauhf</p>
+	<button class="button">Explore</button>
+</div>
+
+</body>
+</html>
