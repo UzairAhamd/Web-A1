@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Task08</title>
+    <link rel="stylesheet" href="Task08.css">
+</head>
+
+<body>
+  
+    <div id="formater">
+        <h1>Formater</h1>
+    </div>
+    <div id="display">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname">
+        <label for="form">Select Formate</label>
+        <select id="formate">
+            <option value="fnme">First Name, Last Name</option>
+            <option value="lnme">Last Name, First Name</option>
+        </select>
+        <button onclick="document.getElementById('res').innerHTML=formate()">FORMATE</button>
+        <p>Formated name: <span id="res"></span></p>
+    </div>
+    <script>
+        function formate(){
+            let select = document.getElementById('formate');
+            let value = select.options[select.selectedIndex].value;
+            let fn=document.getElementById('fname').value;
+            let ln=document.getElementById('lname').value;
+            if(value==="fnme"){
+                return fn+" "+ln;
+            }
+            else if(value==="lnme"){
+                return ln+" "+fn;
+            }
+            
+        }
+    </script>
+    
+</body>
+</html>
