@@ -1,28 +1,165 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Assignment211022</title>
-    <link rel="stylesheet" href="cstyles.css">
+<!--
+	HTML--Hyper Text Markup Language  [not a programming language]
+		  it's a set of markup Tags
+		  it's not case-sensitive
+
+ -->
+<!DOCTYPE html> <!--This declares that this document is an HTML5 document-->
+<html>	<!--this is the root element of an html page-->
+<head>	<!--element contains meta information about the HTML page-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Test Page</title>	<!--this element speicifies a title for HTML page-->
+
+<!-- Basic Tags
+	<h1></h1>
+	<p></p>
+	<a href="https://www.google.com"></a>
+	<img src="" alt="" width="104" height="134">
+	<br>
+	<hr>
+	<label></label>
+	<span></span>
+	<div></div>
+-->
+<!--Text Formating Tags in HTML
+	<strong></strong>
+	<em></em>
+	<mark></mark>
+	<small></small>
+	<del></del>
+	<sub></sub>
+	<sup></sup>
+-->
+<!--HTML 5 Tags
+	<header></header>
+	<footer></footer>
+	<nav></nav>
+	<aside></aside>
+	<article></article>
+	<audio></audio>
+	<video></video>
+-->
+<!--Lists in HTML
+	// this is unordered list with bullets
+	<ul>
+		<li>Coffee</li>
+		<li>Tea</li>
+	</ul>
+	// thsi is ordered list with numbers
+	<ol>
+		<li>Coffee</li>
+		<li>Tea</li>
+	</ol>
+-->
+<!--HTML Links and Navigation
+	<nav>
+		<a href = "/html/"> HTML </a>
+		<a href = "/css/">CSS</a>
+		<a href = "/js/">JavaScript</a>
+		<a href = "/python/">Python</a>
+	</nav>
+-->
+<!--HTML Block and Inline Elements
+	Block-Level Elemets
+		> always starts on a new element
+		> always takes up the full width available
+		>examples
+			<div>, <p>, <header>, <footer>, <h1><h6>, <aside>,<section>,<ul>,<li>,<table>
+	Inline Elements
+		>doesn't start on a new line
+		>only takes up as much space as necessary
+		>examples
+				<a>, <span>, <img>, <strong>,<sub>,<sup>,<input>
+-->
+<!--HTML Tabels
+	//consists of table cells inside rows and columns
+	// use colspan to span a cell over multiple columns
+	<table>
+		<tr>
+			<th>Company</th>
+			<th>Contract</th>
+			<th>Country</th>
+		</tr>
+		<tr>
+			<td>Alfreds Futterkiste</td>
+			<td>Maria Anders</td>
+			<td>Germany</td>
+		</tr>
+		<tr>
+			<td>Centro Commercial Moctezuma</td>
+			<td colspan="2">Franscico Chang</td>
+		</tr>
+	</tabel>
+-->
+<!--HTML Forms	
+	<input type="text" 	   id="fname" value="John">
+	<input type="password" id="fname" value="John">
+	<input type="number"   id="fname" value="John">
+	<input type="date">
+	<input type="radio"    id="html"    name="fav_language" value="HTML">
+	<input type="checkbox" id="vehicle" name="vehicle"		value="Bike">
+	<input type="file">
+	<textarea></textarea>
+-->
+<!--HTML Forms Attributes
+	"readonly" is an attribute that specifies that an input field is read only, 
+	"value" is an attribute of input that specifies initial value for an input field
+	"disabled" is an attribute that says that an input field should be disabled.
+	"placeholder" is an attribute that specifies short hint for expected value for input field
+					input example: text, search, url, tel, email, password
+	"required" attribute specifies that input field must be filled before form submission
+-->
+<!--HTML Responsive Web Design
+	.creating web pages that looks good on all devices
+	.pages will automatically look good on different screen sizes and viewports
+	>Setting The viewport
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		//gives instructions to browser on how to control the page's dimesnions and scaling
+-->
+<!--Responsive Image
+	>images that scale nicely to fit any browser size.
+	>set the width property to 100% to make image Responsive and to scale up and down
+	>max-width if set to 100%, can make image to scale down, but never scale up to be larger than it's orignal size
+-->
+<!---->
+<!---->
+<!--
+	CSS--Cascading Style Sheets Styles	[defines how to display HTML elements]
+	external.css editing in only one file, but changing in all pages
+-->
+<!--Three ways to inlcude CSS
+	External style sheet
+	Internal style sheet
+	Inline style
+-->
+<!--External Style Sheet
+	ideal: when style applied to many pages
+	each page must link to the style sheet using tag inside the head section
+		<head>
+			<link rel="stylesheet" type="text/css" href="myself.css"/>
+		</head>
+-->
+<!--Internal Styles
+	<head>
+		<style>
+			hr{color:red;}
+			p{margin-left:20px;}
+			body{background-image:url("images/balck40.gif");}
+		</style>
+	</head>
+-->
+<!--Inline Styles
+	<p style="color:red; margin-left:20px">This is a paragraph</p>
+-->
+<!--Most Powerful	Inline>Internal>External
+	Most Used		External>Internal>Inline
+-->
+<!--
+	id and class are SELECTORS
+-->
+
 </head>
 
 <body>
-    <div class="main-wraper">
-        <div class="header">
-            <a href="ahsgdc" class="logo">Logo</a>
-            <div class="nav">
-                <a href="sjfk">Home</a>
-                <a href="sjfk">My Work</a>
-                <a href="sjfk">About Me</a>
-                <a href="sjfk">Contact Us</a>
-            </div>
-        </div>
-        <banner>
-            <img src="banner.png">
-        </banner>
-        
-        
-        
-    </div>
-    
 </body>
 </html>
